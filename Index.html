@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VerkstedAI - Voice Cloning Made Easy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VerkstedAI</h1>
+        <p>Create custom AI voices with just a short audio sample</p>
+    </header>
+
+    <main>
+        <section id="ai-tool">
+            <h2>AI Voice Cloning Tool</h2>
+            <form id="voice-clone-form">
+                <label for="audio-upload">Upload your voice sample (min 45 seconds):</label>
+                <input type="file" id="audio-upload" accept="audio/*" required>
+                <label for="text-input">Enter text to be read:</label>
+                <textarea id="text-input" required></textarea>
+                <button type="submit">Generate AI Voice</button>
+            </form>
+            <div id="result"></div>
+        </section>
+
+        <section id="register">
+            <h2>Create an Account</h2>
+            <form id="register-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+                <button type="submit">Register</button>
+            </form>
+        </section>
+
+        <section id="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <p>"VerkstedAI has revolutionized my workflow. It's incredibly easy to use!"</p>
+                    <span>- John Doe, Voice Actor</span>
+                </div>
+                <div class="testimonial">
+                    <p>"I can't believe how accurate the voice cloning is. It's like magic!"</p>
+                    <span>- Jane Smith, Content Creator</span>
+                </div>
+                <div class="testimonial">
+                    <p>"This tool has saved me countless hours of recording. Highly recommended!"</p>
+                    <span>- Mike Johnson, Podcaster</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <h2>Ready to Create Your Custom AI Voice?</h2>
+            <button id="get-started">Get Started</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 VerkstedAI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
